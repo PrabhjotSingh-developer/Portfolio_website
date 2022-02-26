@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-2:2rem;
+    --oc:#eb5424;
+}
+ 
+.font-2{
+    font-size: var(--font-2)!important;
+    font-size: bold!important;
+}
+.oc{
+    color: var(--oc)!important;
+}
+.bg-oc{
+    background-color: var(--oc)!important;
+}
+nav ul li a:hover{
+    color:var(--oc)!important;
+}
+
+.our-work{
+    margin: 5rem auto;
+}
+.our-work i{
+    font-size: 3rem;
+    margin: auto;
+}
+.onhvr{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#eb52241e;
+}
+.Projects-img{
+    margin-bottom: 2rem;
+}
+.Projects-img .view-art{
+    width: 24%!important;
+    }
+.my-pro{
+    width: 40%;
+
+}
+.my-skills{
+    width: 40%;
+    
+}
+.wdsocial{
+    width: 30%!important;
+}
+.wdsocial i{
+    margin-right: 1rem!important;
+    background-color: white;
+    padding: 0.6rem;
+}
+.font-4{
+    font-size: 4rem!important;
+}
+.fb{
+    background-color: #3b5998;
+}
+.fb:hover,.twitter:hover,.insta:hover{
+    background-color:#606060;
+}
+.twitter{
+    background-color: #55acee;
+}
+.insta{
+    background-color: var(--oc);
+}
+form input{
+    width: 80%!important;
+}
+form textarea{
+    width: 90%!important;
+}
+/* Media queries  */
+@media  screen and (max-width:992px) {
+    .fg-chng{
+        justify-content: space-between!important;
+    }
+  
+  .Projects-img{
+    flex-wrap: wrap;
+  }
+  .Projects-img .view-art{
+     width: 40%!important;
+     margin: 2rem auto;
+  }
+  .my-Profile{
+      flex-direction: column!important;
+      align-items: center!important;
+      justify-content: center!important;
+  }
+  .my-pro{
+    width: 80%;
+
+}
+.my-pro p{
+    text-align: right;
+}
+.my-skills{
+    width: 80%;
+    margin-top: 2rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    
+}
+
+  .my-Profile .my-pro .heading{
+         justify-content: left!important;
+         margin-bottom: 1rem!important;
+
+  }
+  .my-Profile .my-skills .heading{
+    justify-content: left!important;
+    margin-bottom: 1rem!important;
+}
+  .three-social-cards{
+      flex-direction: column!important;
+      justify-content: center!important;
+      align-items: center!important;
+  }
+  .three-social-cards .wdsocial{
+      width: 70%!important;
+      justify-content: space-evenly!important;
+  }
+}
+@media  screen and (max-width:775px){
+    .center{
+        justify-content: center!important;
+        width: 90%;
+        align-items: center;
+        margin:auto ;
+    }
+    .Projects-img .view-art{
+        width: 80%!important;
+        margin: 2rem auto;
+     }
+     form input{
+        width: 90%!important;
+        margin: auto;
+    }
+    form textarea{
+        width: 90%!important;
+        margin: auto;
+    }
+    form button{
+        display: block!important;
+        margin: auto!important;
+    }
+    .three-social-cards .wdsocial{
+        width: 95%!important;
+        justify-content: space-evenly!important;
+    }
+}
+@media  screen and (max-width:600px){
+*{
+font-size: 95%;
+}
+}
+
+@media  screen and (max-width:496px){
+   .bcc img{
+       height: 80vh;
+   }
+   .fst{
+       font-weight: bold;
+   }
+}
+@media  screen and (max-width:350px){
+    .ssp{
+        width: 90%!important;
+    }
+}
