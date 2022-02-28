@@ -73,6 +73,13 @@ nav ul li a:hover{
 .insta{
     background-color: var(--oc);
 }
+form{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+   max-width: 80%!important;
+    margin: auto!important;
+}
 form input{
     width: 80%!important;
 }
@@ -133,6 +140,7 @@ form textarea{
       justify-content: space-evenly!important;
   }
 }
+
 @media  screen and (max-width:775px){
     .center{
         justify-content: center!important;
