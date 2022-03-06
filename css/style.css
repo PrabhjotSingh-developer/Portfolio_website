@@ -203,14 +203,14 @@ font-size: 95%;
 }
 
 @media  screen and (max-width:496px){
-   .bcc img{
-       height: 80vh;
+   .bcc .uup{
+       height: 90vh;
    }
    .fst{
        font-weight: 300;
    }
    .for-il img{
-    max-width: 30%!important;
+    max-width: 80%!important;
     border-radius: 50%;
     /* display: block; */
     margin:0rem auto ;
