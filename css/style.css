@@ -1,11 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 :root{
     --font-2:2rem;
     --oc:#eb5424;
+}
+.icons-side{
+    display: block;
+    position: fixed;
+    z-index: 5;
+    top: 30%;
+    left: 0%;
+    background-color: var(--oc);
+    border-radius:0 0.6rem 0rem;
+    transition: 1s all linear;
+    
+}
+
+.for-il img{
+  max-width: 20%!important;
+  border-radius: 50%;
+  /* display: block; */
+  margin:0rem auto ;
+}
+
+.icons-side i{
+    margin: 0.3rem;
 }
  
 .font-2{
@@ -63,15 +86,18 @@ nav ul li a:hover{
 }
 .fb{
     background-color: #3b5998;
+    cursor: pointer;
 }
 .fb:hover,.twitter:hover,.insta:hover{
     background-color:#606060;
 }
 .twitter{
     background-color: #55acee;
+    cursor: pointer;
 }
 .insta{
     background-color: var(--oc);
+    cursor: pointer;
 }
 form input{
     width: 80%!important;
@@ -86,6 +112,8 @@ form{
    max-width: 80%!important;
     margin: auto!important;
 }
+
+ 
 /* Media queries  */
 @media  screen and (max-width:992px) {
     .fg-chng{
@@ -179,11 +207,18 @@ font-size: 95%;
        height: 80vh;
    }
    .fst{
-       font-weight: bold;
+       font-weight: 300;
    }
+   .for-il img{
+    max-width: 30%!important;
+    border-radius: 50%;
+    /* display: block; */
+    margin:0rem auto ;
+  }
 }
 @media  screen and (max-width:350px){
     .ssp{
         width: 90%!important;
     }
+
 }
