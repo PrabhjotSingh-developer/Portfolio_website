@@ -17,4 +17,15 @@ for (let i = 0; i < imgon.length; i++) {
     });
   
 }
+// fb 
+var fb=document.querySelector(".fb");
+fb.addEventListener("click",function(){
+    location.href = "http://api.whatsapp.com/send?phone=+919872283681";
+    
+})
+var twitter=document.querySelector(".insta");
+twitter.addEventListener("click",function(){
+    location.href = "https://www.instagram.com/official_.singh01/";
+    
+})
 
